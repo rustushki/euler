@@ -1,0 +1,84 @@
+51
+
+42
+411
+
+33
+321
+3111
+
+222
+2211
+21111
+
+111111
+
+
+how many ways can 1 be represented using the term set {1}?     1
+how many ways can 2 be represented using the term set {1,2}?   2
+how many ways can 3 be represented using the term set {1,2,3}? 3
+how many ways can 4 be represented using the term set {1,2}?   3
+how many ways can 5 be represented using the term set {1}?     1
+
+
+41
+
+32
+311
+
+221
+2111
+
+11111
+
+how many ways can 1 be represented using the term set {1}?     1
+how many ways can 2 be represented using the term set {1,2}?   2
+how many ways can 3 be represented using the term set {1,2}?   2
+how many ways can 4 be represented using the term set {1}?     1
+
+
+f(2,2) = f(2,1) + f(2,0)
+
+91
+
+82
+811
+
+73
+721
+
+64
+631
+6211
+61111
+
+55
+541
+5311
+52111
+511111
+
+42
+442
+4411
+433
+4321
+43111
+4222
+42211
+421111
+4111111
+
+
+
+---
+
+f(5,4) = f(4,1) + f(3,2) + f(2,2) + f(1,1) = 1+2+2+1
+f(4,1) = 1
+f(3,2) = f(1,1) + f(2,1) = 2
+f(1,1) = 1
+f(2,1) = 1
+f(2,2) = f(1,1) + 1 = 2
+
+2
+1
